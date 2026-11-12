@@ -12,7 +12,7 @@ installer's only other job is to rename SCRANTIC.EXE to SCRANTIC.SCR.
 
 The decoder is written from the DCL format (literal/length/distance codes
 built from the fixed bit-length tables every DCL stream uses); its structure
-follows Mark Adler's blast.c (zlib licence; see NOTICE).
+follows Mark Adler's blast.c (zlib license; see NOTICE.md).
 """
 import os
 import sys
