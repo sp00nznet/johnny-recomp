@@ -1,0 +1,17 @@
+{
+  "title": "Johnny Castaway",
+  "repo": "sp00nznet/johnny-recomp",
+  "accent": "#2fb8c9",
+  "note": {
+    "windows": "The 1992 screen saver, recompiled: Johnny on his island, full screen. The build takes about two minutes. Python, capstone, CMake, Ninja and MSYS2's gcc (about 1 GB) are installed if missing. Setup.cmd -Install makes it your Windows screen saver."
+  },
+  "game": {
+    "name": "Screen Antics: Johnny Castaway",
+    "files": ["SCRANTIC.SC$|scrantic.sc$|SCRANTIC.SCR|scrantic.scr"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-johnny", "dir": "pcrecomp" }],
+  "setup": {
+    "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Johnny Castaway.cmd"
+}

@@ -1,0 +1,18 @@
+Johnny Castaway recomp
+
+The project layout is from the Space Bucks recomp
+(https://github.com/sp00nznet/spacebucks-recomp). The Win16 front end, the
+host runtime and the screen saver host are pcrecomp's
+(https://github.com/sp00nznet/pcrecomp), MIT.
+
+work/win16_imports.json (generated, not shipped) holds Win16 API names by
+ordinal, built from Wine's 16-bit .spec files by pcrecomp's
+tools/ne/wine_spec_to_json.py. No Wine code is used.
+
+tools/kd_expand.py decodes the PKWARE Data Compression Library format. It is
+written for this project in Python; the shape of its decoder (canonical codes
+built from the format's fixed bit-length tables) follows Mark Adler's blast.c,
+which ships with zlib under the zlib licence (https://zlib.net/zlib_license.html).
+
+Screen Antics: Johnny Castaway is (c) 1992 Sierra On-Line / Dynamix. None of
+it is included.

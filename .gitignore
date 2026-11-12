@@ -1,0 +1,28 @@
+# Your copy of the screen saver (Screen Antics (c) 1992 Sierra On-Line / Dynamix). Never committed.
+game/
+*.SCR
+*.scr
+*.EXE
+*.exe
+RESOURCE.*
+*.SC$
+*.00$
+*.ima
+*.img
+
+# Generated from the screen saver: the lifted C, the memory image, the
+# import maps. Regenerate with tools/relift.py.
+work/
+
+# Build output and run captures
+build/
+build-*/
+out/
+
+# Python
+__pycache__/
+*.pyc
+
+# Made by Setup.cmd, and by netlab
+setup.log
+Johnny Castaway.cmd
