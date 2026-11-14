@@ -14,6 +14,7 @@ All notable changes to this project are documented here. The format follows
   that says plainly there is no Linux or macOS build yet.
 
 ### Changed
+- Builds against pcrecomp main; the `pcrecomp-johnny` branch is merged.
 - README in the ra2 house style; the step-by-step build, the switches and the
   screen saver notes moved to `docs/`.
 

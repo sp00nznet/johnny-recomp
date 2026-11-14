@@ -21,7 +21,6 @@
   Windows 3.1 (a VM with the real `.SCR`), frame by frame from a fixed seed.
 - **The 256-colour version.** Lift it too when a copy turns up.
 - **Multiple monitors.** `/s` covers the primary monitor only.
-- **pcrecomp `pcrecomp-johnny` merged into `main`**, and the setup pinned to it.
 
 ## Out of scope for now
 - Linux and macOS: a Windows screen saver has no meaning there; a Wine path

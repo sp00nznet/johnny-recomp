@@ -13,7 +13,7 @@ param([switch]$Force, [switch]$Yes, [switch]$Install, [string]$GameDir = "")
 # ---------------------------------------------------------------- this game
 $Title     = 'Johnny Castaway'
 $Exe       = 'johnny.scr'
-$Branch    = 'pcrecomp-johnny'   # the pcrecomp branch with the screen saver host
+$Branch    = 'main'
 $Shortcut  = 'Johnny Castaway.cmd'
 $NeedMB    = 150
 # The floppy (SCRANTIC.SC$ + RESOURCE.00$, compressed) or an installed copy

@@ -7,8 +7,8 @@
 Windows 10/11, **Python 3.10+** (`py -3 --version`) with `capstone`, **CMake**
 3.16+, **Ninja**, **MSYS2** with `mingw-w64-x86_64-gcc`
 (`C:\msys64\mingw64\bin\gcc.exe`, on `PATH` so gcc finds `cc1`), **git**, and
-pcrecomp cloned beside this repository as `pcrecomp`, on branch
-**`pcrecomp-johnny`** (on `pcrecomp-ne-spacebucks`; not yet in `main`), or
+pcrecomp cloned beside this repository as `pcrecomp`, on
+`main`, or
 `PCRECOMP_DIR` pointing at it.
 
 Your copy: the files from the floppy (`SCRANTIC.SC$`, `RESOURCE.00$`,
@@ -18,7 +18,7 @@ Your copy: the files from the floppy (`SCRANTIC.SC$`, `RESOURCE.00$`,
 ## Steps
 
 ```
-git clone -b pcrecomp-johnny https://github.com/sp00nznet/pcrecomp ..\pcrecomp
+git clone https://github.com/sp00nznet/pcrecomp ..\pcrecomp
 python tools\kd_expand.py <floppy folder> game        & rem or copy an installed copy's files
 copy <floppy folder>\RESOURCE.MAP game\
 python tools\relift.py

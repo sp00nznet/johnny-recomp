@@ -9,7 +9,7 @@
     "name": "Screen Antics: Johnny Castaway",
     "files": ["SCRANTIC.SC$|scrantic.sc$|SCRANTIC.SCR|scrantic.scr"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-johnny", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
   "setup": {
     "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },

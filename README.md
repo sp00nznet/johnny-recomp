@@ -8,8 +8,7 @@ screen, shows it in the screen saver settings' preview box and opens its
 settings dialog, as it would any modern saver. No emulator, no Windows 3.1.
 
 Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain, on
-its branch **`pcrecomp-johnny`** (on `pcrecomp-ne-spacebucks`, not yet in
-`main`): the lifting, the Win16 host (KERNEL, USER, GDI, MMSYSTEM answered
+`main`: the lifting, the Win16 host (KERNEL, USER, GDI, MMSYSTEM answered
 with Win32) and the screen saver protocol are pcrecomp's. It is pcrecomp's
 first Win16 screen saver, in the layout of the
 [Space Bucks](https://github.com/sp00nznet/spacebucks-recomp) recomp.
@@ -34,8 +33,8 @@ from your copy. There is no installer release yet.
    ends it), or install it as your screen saver with **`Setup.cmd -Install`**.
 
 The script asks before installing anything (Python 3.10+ with `capstone`,
-CMake, Ninja, MSYS2's MinGW-w64 gcc), fetches pcrecomp on branch
-`pcrecomp-johnny` beside this folder if it is missing, unpacks the floppy's
+CMake, Ninja, MSYS2's MinGW-w64 gcc), fetches pcrecomp (`main`)
+beside this folder if it is missing, unpacks the floppy's
 compressed files into `game\`, lifts and builds `build\johnny.scr`. A rerun
 skips finished steps; if it stops, it says why in one sentence and the
 details are in `setup.log`. `-Install` copies it to

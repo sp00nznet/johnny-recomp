@@ -7,7 +7,7 @@ and is never committed. No IDA: pcrecomp builds the code map itself
 
     python tools/relift.py
 
-PCRECOMP_DIR defaults to ../pcrecomp (branch pcrecomp-johnny).
+PCRECOMP_DIR defaults to ../pcrecomp (branch main).
 """
 import os
 import subprocess

@@ -1,8 +1,8 @@
 # Bring-up notes
 
 How `SCRANTIC.SCR` went from a floppy image to a working Windows screen saver,
-in the order the problems showed up. Toolkit changes are on pcrecomp branch
-`pcrecomp-johnny`; everything is IDA-free.
+in the order the problems showed up. Toolkit changes are in pcrecomp's
+`main`; everything is IDA-free.
 
 ## The files
 

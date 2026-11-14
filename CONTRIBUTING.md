@@ -14,7 +14,7 @@ are fine.
 
 ## Before a pull request
 
-1. Lift from clean and build (pcrecomp on `pcrecomp-johnny`):
+1. Lift from clean and build (pcrecomp on `main`):
    ```
    py -3 tools\relift.py
    cmake --build build
@@ -29,7 +29,7 @@ are fine.
 - A bug in the NE lifter, the code map or the Win16 host (a missing or wrong
   KERNEL/USER/GDI/MMSYSTEM call, or the screen saver host) belongs in
   [pcrecomp](https://github.com/sp00nznet/pcrecomp), against
-  `pcrecomp-johnny`, not here.
+  `main`, not here.
 - Something only this game does goes in `runtime/game.c` or `tools/relift.py`,
   with a comment that says what it fixes and why.
 - A wall you got past goes in `docs/bringup.md`: what it looked like, what it
